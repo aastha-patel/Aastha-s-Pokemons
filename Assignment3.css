@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding:0;
+    
+    font-family: sans-serif;
+    
+}
+
+main{
+    display: flex;
+    width:75vw;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    margin:55vh auto 0 ;
+    max-width: 1200px;
+    
+    z-index: -1;
+    
+}
+
+nav{
+    position:fixed;
+    height:50px;
+    width:100vw;
+    top:0;
+    
+    background-color: rgb(8, 8, 8);
+    
+}
+
+nav p{
+    margin:10px 10px;
+    float:left;
+    
+    letter-spacing: .5rem;
+    font-family: Lacquer;
+    font-size: 20px;
+    color:rgb(255, 247, 247);
+}
+
+header{
+    position:fixed;
+    height:40vh;
+    width:100vw;
+    top:50px;
+    
+    background-color: rgb(253, 253, 253);
+    z-index: 1;
+}
+
+header{
+    height:fit-content;
+
+}
+.show{
+    width:35vw;
+    min-height: 300px;
+    margin:5vh auto;
+    position: relative;
+    
+    background-color: rgb(236, 235, 235);
+    border-radius: .5rem;
+}
+
+.show:hover{
+    box-shadow: 1px 1px 30px rgb(3, 3, 3);
+
+    
+}
+
+.height{
+    
+    border-top:1px solid black;
+}
+    
+.height ,.weight ,.type1{
+    text-align: center;
+    padding:1rem 0 .5rem;
+
+    }
+
+.pokename{
+    text-align: center;
+    bottom:0;
+    margin-top:20px;
+    padding: 0.5rem;
+    
+    color:white;
+    background-color: rgb(230, 17, 17);
+    border-radius: 0 0 .5rem .5rem ;
+    
+}
+
+.pokeball{
+    display: block;
+    height:200px;
+    width:200px;
+    
+    padding-top:50px;
+}
+
+img{
+    display: block;
+    height:120px;
+    width:120px;
+    margin:auto;
+}
+
+section{
+    height:200px;
+    width:200px;
+    
+    margin:1rem;
+    position: relative;
+    border-radius: .5rem;
+
+    background-color: rgb(238, 238, 238);
+}
+
+section:hover{
+    box-shadow: 1px 1px 30px rgb(10, 10, 10);
+}
+
+section .name{
+    position:absolute;
+    bottom:0;
+    width:200px;
+    text-align:center;
+    padding:.5rem 0;
+    
+    background-color: rgb(1, 110, 83);
+    color:white;
+    border-radius: 0 0 .5rem .5rem ;
+}
